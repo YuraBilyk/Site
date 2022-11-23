@@ -62,6 +62,29 @@ footer{
     margin: 0 auto;
 }
 
+/*section Body*/
+
+.section__home{
+    width: 100vh;
+    background-image: url(src/img/Background/wallpaperbetter.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer__img{
     width: 120px;
 }
