@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400&display=swap" rel="stylesheet">
+    <link href="src/css/itc-slider.css" rel="stylesheet">
+    <script src="src/js/itc-slider.js" defer></script>
     <title>Coder</title>
 </head>
 <header>
     <div class="container">
         <div>
-            <img class="header__img" src="src/img/icon/instagram.png" alt="instagram">
+            <a href="https://www.instagram.com/"><img class="header__img" src="src/img/icon/instagram.png" alt="instagram"></a>
         </div>
         <div class="header__nav">
             <a href="#" class="header__buttom active">Главная</a>
@@ -21,7 +24,7 @@
             <a href="#" class="header__buttom">Команда</a>
         </div>
         <div class="header__Logo">
-            <img class="header__Logo" src="src/img/Logo.png" alt="">
+            <a href="#"><img class="header__Logo" src="src/img/Logo.png" alt=""></a>
         </div>
         <div class="header__nav__right">
             <a href="#" class="header__buttom">Акции</a>
@@ -35,10 +38,58 @@
     <div class="section__home">
         <h5>Konstantin</h5>
         <h4>Kosakov</h4>
+        <div id="blink1">
+            <h6>Прокрутите вниз</h6>
+        </div>
     </div>
     
     <div class="section__quote">
-        <p>"Мы находимся здесь, чтобы внести свой вклад в этот мир. Иначе зачем мы здесь?</p>
+        <div id="blink2">
+            <img class="section__txt" src="src/img/txt/“.png" alt="">
+            <p>"Мы находимся здесь, чтобы внести свой вклад в этот мир. Иначе зачем мы здесь?</p>
+            <p>Стив Джобс</p>
+        </div>
+    </div>
+    <div class="section__work">
+        <h4>Наши работы</h4>
+        <form>
+            <input type="button" value="ВСЕ" onclick="OneButton()">
+            <div id='pictures' class="section__work__pictures"></div>
+        </form>
+    </div>
+    <div class="section__my__team">
+        <h4>Моя Команда</h4>
+        <div class="container__work">
+            <div class="itc-slider" data-slider="itc-slider" data-loop="true" data-autoplay="true">
+                <div class="itc-slider__wrapper">
+                <div class="itc-slider__items">
+                    <div class="itc-slider__item">
+                    <!-- Контент 1 слайда -->
+                    1kjfhskfhskfskfhkhskfhsk
+                    </div>
+                    <div class="itc-slider__item">
+                    <!-- Контент 2 слайда -->
+                    2
+                    </div>
+                    <div class="itc-slider__item">
+                    <!-- Контент 3 слайда -->
+                    3
+                    </div>
+                    <div class="itc-slider__item">
+                    <!-- Контент 4 слайда -->
+                    4
+                    </div>
+                    <div class="itc-slider__item">
+                    <!-- Контент 5 слайда -->
+                    5
+                    </div>
+                </div>
+                </div>
+                <button class="itc-slider__btn itc-slider__btn_prev"></button>
+                <button class="itc-slider__btn itc-slider__btn_next"></button>
+            </div>
+        </div>
+
     </div>
 </body>
 <footer>
@@ -60,6 +111,7 @@
         </div>
         <div class="footer__social">
             <h3>Мы в instagram</h3>
+            <a href="https://www.instagram.com/"><img class="footer__inst" src="src/img/icon/instagram.png" alt=""></a>
         </div>
     </div>
     <hr>
