@@ -1,7 +1,9 @@
 var pictures = document.getElementById('pictures')
 
+var elem = document.createElement("img")
+
 var Everybody = new Array(
-    'work-1.png',
+    '../img/work/work-1.png',
     'work-2.png',
     'work-3.png',
     'work-4.png',
@@ -10,11 +12,14 @@ var Everybody = new Array(
     'work-7.png',
     'work-8.png',
     'work-9.png',
-);
-
-var img = document.createElement('img')
+    );
+elem.src = Everybody[1];
+    
 function OneButton(){
-    document.getElementById('pictures').src=pics[cur];
+    document.pictures.append(elem);
+
+
+    //document.getElementById('pictures').src=pics[cur];
    // for(i=1; i<Everybody.length; i++){
         //img.innerHTML = `<img src="${Everybody[i]}">`
     //img.innerHTML = '<img src="src/img/work/work-1.png">'
