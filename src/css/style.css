@@ -72,6 +72,7 @@ footer{
 .section__home{
     width: 100%;
     height: 90vh;
+    border-radius: 25px;
     background: url(../img/main/bgc.png)
     center no-repeat;
     background-size: cover;
@@ -124,12 +125,14 @@ footer{
 
 .section__my__team h4,
 .section__price h5,
+.section__Contacts h5,
 .section__work h4{
     text-align: center;
     color: #fff;
-    font-size: 24px;
+    font-size: 32px;
     font-family: 'Cormorant Infant';
     font-weight: 300;
+    font-style: italic;
 }
 
 .container__a__work{
@@ -147,6 +150,8 @@ footer{
 
 .section__pictures__img{
     width: 32%;
+    border-radius: 25px;
+    margin: 3px 3px;
 }
 
 p.team__work{
@@ -179,6 +184,10 @@ p.team__work{
     color: #FFFFFF;
     justify-content: space-between;
     margin: 2% 0;
+}
+
+.blog__map{
+    left: 50%;
 }
 
 .footer__img{
@@ -225,10 +234,12 @@ footer h4{
 
 .Photo__People{
     width: 95%;
+    border-radius: 25px;
 }
 
 .price__Photo{
     width: 20%;
+    border-radius: 25px;
 }
 
 
