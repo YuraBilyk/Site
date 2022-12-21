@@ -1,5 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #111111;
+    cursor: url(../img/Cursor/meme-pop-cat-One.png), url(../img/Cursor/meme-pop-cat-One.cur), default;
 }
 
 header{
@@ -117,9 +122,21 @@ footer{
     width: 50px;
 }
 
+.section__my__team h4,
+.section__work h4{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Cormorant Infant';
+    font-weight: 300;
+}
 
-
-
+p.team__work{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Cormorant Infant';
+    font-weight: 300;
+}
 
 
 
@@ -156,8 +173,18 @@ footer h4{
     
 }
 
+.team__p{
+    color:#fff;
+}
 
+.container__work{
+    width: 50%;
+    margin: 0 auto;
+}
 
+.Photo__People{
+    width: 95%;
+}
 
 
 
@@ -216,18 +243,7 @@ footer h4{
 
 
 
-/* .itc-slider__item {
-flex: 0 0 33.3333333333%;
-max-width: 33.3333333333%;
-height: 250px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: rgba(255,255,255, 0.8);
-font-size: 7rem;
-} */
-
-.itc-slider__item:nth-child(1) {
+/* .itc-slider__item:nth-child(1) {
 background-color: #f44336;
 }
 
@@ -245,5 +261,5 @@ background-color: #03a9f4;
 
 .itc-slider__item:nth-child(5) {
 background-color: #4caf50;
-}
+} */
 
