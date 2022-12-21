@@ -123,12 +123,30 @@ footer{
 }
 
 .section__my__team h4,
+.section__price h5,
 .section__work h4{
     text-align: center;
     color: #fff;
     font-size: 24px;
     font-family: 'Cormorant Infant';
     font-weight: 300;
+}
+
+.container__a__work{
+    text-align: center;
+}
+
+.section__work{
+    margin-bottom: 10%;
+}
+
+.section__work__pictures{
+    max-width: 50%;
+    margin: 2% auto;
+}
+
+.section__pictures__img{
+    width: 32%;
 }
 
 p.team__work{
@@ -139,6 +157,29 @@ p.team__work{
 }
 
 
+.block__price__One{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.block__name__price{
+    display:flex;
+    color: #FFFFFF;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    margin: 4% 2%;
+}
+
+.price__name{
+    display:flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    margin: 2% 0;
+}
 
 .footer__img{
     width: 120px;
@@ -186,6 +227,9 @@ footer h4{
     width: 95%;
 }
 
+.price__Photo{
+    width: 20%;
+}
 
 
 @-webkit-keyframes blink1 {
