@@ -28,13 +28,13 @@
         </div>
         <div class="header__nav__right">
             <a href="#price" class="header__buttom">Цены</a>
-            <a href="#" class="header__buttom">Отзывы</a>
-            <a href="#" class="header__buttom">Контакты</a>
+            <a href="#contact" class="header__buttom">Контакты</a>
         </div>
     </div>
     <hr>
 </header>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Вверх</button>
     <div class="section__home">
         <h5>Konstantin</h5>
         <h4>Kosakov</h4>
@@ -202,7 +202,33 @@
                 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3ad9bdace01117300b9d437328b2b42dc6c99031d47a849ff93bec81272daaa0&amp;width=715&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
             </center>
         </div>
-        
+        <div class="container__contacts">
+            <div class="contact__text">
+                <h4>Контакты</h4>
+                <p>+7 (812) 123-45-67</p>
+                <p>+7 (812) 123-45-67</p>
+                <p>Нидерланды, Северный Брабант, Осс, Лит</p>
+            </div>
+            <div class="contact__text">
+                <h4>Режим работы</h4>
+                <p>С 10:00 до 21:00 (Пн-Пт)</p>
+                <p>С 11:00 до 20:00 (Сб-Вс)</p>
+            </div>
+            <div class="contact__text">
+                <h3>Мы в instagram</h3>
+                <a href="https://www.instagram.com/"><img class="footer__inst" src="src/img/icon/instagram.png" alt=""></a>
+            </div>  
+        </div>
+        <h3>Так же, вы можете оставить свой заказ и мы с вами свяжемся</h3>
+        <div id="contact" class="container__form">
+            <form>
+                <input name="name" placeholder="Укажите ваше имя!" class="name" required />
+                <input name="emailaddress" placeholder="Укажите ваш Email!" class="email" type="email" required />
+                <textarea rows="4" cols="50" name="subject" placeholder="Введите ваше сообщение:" class="message" required></textarea>
+                <input name="submit" class="btn" type="submit" value="Отправить" />
+            </form>
+        </div>
+
     </div>
 </body>
 <footer>
