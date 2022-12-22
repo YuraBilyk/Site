@@ -262,6 +262,19 @@ footer h4{
     font-size: 32px;
 }
 
+.Phone__a{
+    color: #e1e1e1;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    border-bottom-color: #e1e1e1;
+}
+
+.Phone__a:hover{
+    text-decoration: none;
+    color: #ffCC00;
+    border-bottom-color: #ffCC00;
+}
+
 
 @-webkit-keyframes blink1 {
     10% { transform: scale(1, 1) rotate(80deg); }
@@ -319,7 +332,7 @@ footer h4{
     width: 50%;
     margin: 0 auto;
 }
-/* Базовый стиль формы */
+
 form {
     margin: 0 auto;
     max-width: 95%;
@@ -337,7 +350,7 @@ form {
     box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
     overflow: hidden; 
 }
-/* Поле сообщения */
+
 textarea{
     background: rgba(0, 0, 0, 0.4); 
     width: 90%;
@@ -360,7 +373,7 @@ textarea{
     margin-bottom:20px;
     overflow:hidden;
 }
-/* Поля ввода */
+
 input {
     width: 90%;
     height: 48px;
@@ -414,7 +427,8 @@ input:focus, textarea:focus {
     box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
     overflow: hidden; 
 }
-/* Стили для кнопки отправить */
+
+
 .btn {
     width: 138px;
     height: 44px;
@@ -479,23 +493,13 @@ input:focus, textarea:focus {
     background-color: rgb(9, 13, 58); 
 }
 
-/* .itc-slider__item:nth-child(1) {
-background-color: #f44336;
-}
 
-.itc-slider__item:nth-child(2) {
-background-color: #9c27b0;
-}
-
-.itc-slider__item:nth-child(3) {
-background-color: #3f51b5;
-}
-
-.itc-slider__item:nth-child(4) {
-background-color: #03a9f4;
-}
-
-.itc-slider__item:nth-child(5) {
-background-color: #4caf50;
-} */
-
+.hover-image-scale { 
+    overflow: hidden;
+  }
+  .hover-image-scale img {
+    transition: 1s;
+  }
+  .hover-image-scale img:hover {
+    transform: scale(1.2);
+  }
